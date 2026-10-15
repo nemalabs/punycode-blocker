@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Punycode Blocker",
+  "version": "1.0.0",
+  "description": "Blocks all requests to internationalized (punycode / xn--) domains.",
+  "permissions": ["declarativeNetRequest"],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "block_punycode",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}
