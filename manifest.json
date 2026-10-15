@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "Punycode Blocker",
   "version": "1.0.0",
+  "minimum_chrome_version": "88",
   "description": "Blocks all requests to internationalized (punycode / xn--) domains.",
   "permissions": ["declarativeNetRequest"],
   "declarative_net_request": {
