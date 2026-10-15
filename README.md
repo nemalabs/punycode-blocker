@@ -55,3 +55,7 @@ The extension requests only the `declarativeNetRequest` permission. It contains 
 | --- | --- |
 | `manifest.json` | Extension manifest |
 | `rules.json` | Block rule for `declarativeNetRequest` |
+
+## License
+
+This project is dedicated to the public domain under [CC0 1.0 Universal](LICENSE). You may copy, modify, and distribute it for any purpose, including commercial use, without asking permission or giving credit.
